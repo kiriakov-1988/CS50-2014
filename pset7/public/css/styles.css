@@ -1,0 +1,63 @@
+/**
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set 7
+ *
+ * Global CSS.
+ */
+
+.container
+{
+    /* center contents */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#middle .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+#middle table /* добавлено */
+{
+    text-align: left;
+}
+
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+
+    /* surround with whitespace */
+    margin: 20px;
+}
+
+ /* проверка регистрационной формы*/
+
+#register_form input[name="username"]:valid, #register_form input[name="password"]:valid  {
+    background: url(../img/ok.png) 98% center no-repeat;
+    margin-right: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
